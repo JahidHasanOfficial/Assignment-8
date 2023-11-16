@@ -8,10 +8,9 @@ use Illuminate\Support\Facades\Cookie;
 
 class ProfileController extends Controller
 {
-    public function index($name)
+    public function index($id)
     {
-       // $name = "Donal Trump";
-       $id= '4';
+        $name = "Donal Trump";
         $age = "75";
         $data = [
             'id' => $id,
